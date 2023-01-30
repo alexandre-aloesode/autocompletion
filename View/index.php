@@ -14,7 +14,7 @@
 
     <div id="auto_completion">
 
-        <img id="search_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS2F-ORUI5ixlraWTHm9-noJSsnIVn353PLw&usqp=CAU">
+        <img id="search_img" src="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f2/Premier_League_Logo.svg/2560px-Premier_League_Logo.svg.png">
 
         <form action="search_results.php" method="GET" id="search_form">
 

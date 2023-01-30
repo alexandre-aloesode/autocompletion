@@ -1,10 +1,12 @@
 body {
 
     margin: 20%;
-    margin-top: 6%;
+    margin-top: 15%;
     display: flex;
     justify-content: center;
-
+    background-image: url(https://thedistrictskycity.com.au/wp-content/uploads/2021/12/EPL-Website-Banner-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #auto_completion {
@@ -54,7 +56,7 @@ body {
     }
 
     #suggestions {
-
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -64,14 +66,14 @@ body {
 
         #suggestions a {
             text-decoration: none;
-            color: black;
+            color: white;
             margin-top: 10px;
             width: 100%;
             padding-left: 5px;
         }
 
         #suggestions a:hover {
-            background-color: rgba(128, 128, 128, 0.116);
+            background-color: rgba(128, 128, 128, 0.733);
         }
 
     

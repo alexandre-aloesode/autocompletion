@@ -105,6 +105,8 @@
 
             }
 
+            if(empty($result_exact_player) && empty($result_contain_player)) echo "<h1> Votre recherche n'a retourné aucun résultat </h1>";
+
         }
 
 

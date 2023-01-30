@@ -2,6 +2,9 @@ body {
 
     margin: 15%;
     margin-top: 0;
+    background-image: url(https://thedistrictskycity.com.au/wp-content/uploads/2021/12/EPL-Website-Banner-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -10,14 +13,38 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    font-size: 120%;
 }
 
-header a {
+    header a {
 
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-}
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+    }
+
+    #search_input {
+
+        position: relative;
+    }
+
+    #suggestions {
+
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #suggestions a {
+
+        margin-top: 20px;
+    }
+
+    #suggestions a:hover {
+
+        color: black;
+    }
 
 
 table {
@@ -26,6 +53,7 @@ table {
     width: 90%;
     margin-top: 5%;
     font-size: 90%;
+    color: white;
 }
 
     thead {
@@ -34,8 +62,8 @@ table {
     }
 
     th {
-        background-color: purple;
-        border: solid 2px grey;
+        background-color: none;
+        border: solid 2px white;
         padding: 5px;
 
     }
@@ -43,10 +71,16 @@ table {
     td {
         text-align: center;
         padding: 5px;
-        border: solid 2px grey;
+        border: solid 2px white;
         width: 5%;
         height: 40px;
         word-wrap: break-word;
+      }
+
+      #search_icon {
+
+        color: white;
+        font-size: 90%;
       }
       
 #display_results {
@@ -61,7 +95,8 @@ table {
     #display_results a {
 
         text-decoration: none;
-        color: black;
+        color: white;
+        font-size: 170%;
 
     }
 
